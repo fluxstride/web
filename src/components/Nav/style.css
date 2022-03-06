@@ -1,0 +1,38 @@
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  width: 85vw;
+  margin: 0 auto;
+  margin-top: 2rem;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.hamburger__container {
+  width: 60px;
+  margin-top: 2px;
+  z-index: 39;
+}
+.hamburger {
+  width: 40px;
+  display: block;
+  margin-left: auto;
+ 
+}
+.nav__links {
+  width: 100vw;
+  height: 100vh;
+  background: #424cf9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(100vw);
+  transition: all 200ms ease-in-out;
+}
+.nav__links ul{
+  list-style: none;
+}
+
+.nav__show{
+  transform: translateX(0vw)
+}
