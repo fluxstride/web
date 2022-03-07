@@ -12,6 +12,9 @@ const Home = () => {
           <p className="p1 b">I build</p>
           <p className="p2 b">amazing</p>
           <p className="p3 b">websites & webapps</p>
+          <button>
+            Talk to me
+          </button>
         </div>
       </header>
     </div>

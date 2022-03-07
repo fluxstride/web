@@ -33,8 +33,18 @@ header {
   font-size: 28px;
   color: #424cf9;
 }
+button{
+  margin-top: 2rem;
+  padding: .8rem 3.5rem;
+  font-size: 1.4rem;
+  background: #12006C;
+  border: none;
+  font-family: Poppins;
+  color: #fff;
+  border-radius: 5px;
+}
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 760px) {
   header {
     /* height: 100vh; */
     display: grid;
@@ -47,12 +57,48 @@ header {
     grid-area: picture;
     margin-top: 0;
     justify-self: center;
-    width: 400px;
+    width: 300px;
   }
 
   .header__texts {
     grid-area: text;
     margin-top: 0;
+    line-height: 4rem;
+  }
+
+  .p1 {
+    font-size: 25px;
+  }
+  .p2 {
+    font-size: 55px;
+  }
+  .p3 {
+    font-size: 30px;
+    color: #424cf9;
+  }
+
+  button{
+    margin-top: 2rem;
+    padding: .8rem 3.5rem;
+    font-size: 1.4rem;
+    background: #12006C;
+    border: none;
+    font-family: Poppins;
+    color: #fff;
+    border-radius: 5px;
+  }
+  button{
+    padding: .7rem 2.8rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .header__image {
+    width: 400px;
+  }
+
+  .header__texts {
     line-height: 4rem;
   }
 
@@ -66,5 +112,7 @@ header {
     font-size: 40px;
     color: #424cf9;
   }
+
+  
   
 }
