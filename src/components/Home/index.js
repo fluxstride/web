@@ -11,7 +11,7 @@ const Home = () => {
         <div className="header__texts">
           <p className="p1 b">I build</p>
           <p className="p2 b">amazing</p>
-          <p className="p3 b">Software solutions</p>
+          <p className="p3 b">websites & webapps</p>
         </div>
       </header>
     </div>

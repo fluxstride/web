@@ -1,5 +1,5 @@
 .header__image {
-  width: 280px;
+  width: 260px;
   display: block;
   margin: 0 auto;
   margin-top: 3.5rem;
@@ -7,17 +7,18 @@
 
 .header__texts {
   margin-top: 3rem;
+  line-height: 3.2rem;
 }
-.b{
+.b {
   font-weight: 700;
 }
 .p1 {
-  font-size: 24px
+  font-size: 24px;
 }
 .p2 {
   font-size: 48px;
-  color: #424cf9;
 }
 .p3 {
-  font-size: 36px;
+  font-size: 32px;
+  color: #424cf9;
 }
