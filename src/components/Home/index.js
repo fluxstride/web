@@ -8,6 +8,11 @@ const Home = () => {
       <Nav />
       <header>
         <img src={picture} alt="Samuel Adekoya" className="header__image" />
+        <div className="header__texts">
+          <p className="p1 b">I build</p>
+          <p className="p2 b">amazing</p>
+          <p className="p3 b">Software solutions</p>
+        </div>
       </header>
     </div>
   )

@@ -1,9 +1,6 @@
 .nav__container {
   display: flex;
   justify-content: space-between;
-  width: 85vw;
-  margin: 0 auto;
-  margin-top: 2rem;
   align-items: center;
   overflow-y: hidden;
 }

@@ -6,6 +6,6 @@
 }
 
 html{
-  height: 100vw;
-  overflow-x: hidden;
+  font-family: poppins;
+   padding: 2rem;
 }

@@ -4,3 +4,20 @@
   margin: 0 auto;
   margin-top: 3.5rem;
 }
+
+.header__texts {
+  margin-top: 3rem;
+}
+.b{
+  font-weight: bold;
+}
+.p1 {
+  font-size: 24px
+}
+.p2 {
+  font-size: 48px;
+  color: #424cf9;
+}
+.p3 {
+  font-size: 36px;
+}
