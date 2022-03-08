@@ -31,13 +31,13 @@ header {
 }
 .p3 {
   font-size: 28px;
-  color: #424cf9;
 }
 button{
   margin-top: 1.7rem;
   padding: .9rem 2.8rem;
   font-size: 1.1rem;
-  background: #12006C;
+//  background: #12006C;
+background:#424cf9;
   border: none;
   font-family: Poppins;
   color: #fff;
