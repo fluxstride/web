@@ -26,12 +26,12 @@
   top: 0;
   left: 0;
   transform: translateX(100vw);
-  transition: all 200ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 .nav__links ul{
   list-style: none;
 }
 
 .nav__show{
-  transform: translateX(0vw)
+  transform: translateX(30vw)
 }
