@@ -6,6 +6,8 @@ header {
   grid-template-areas:
     "picture"
     "text";
+    padding:0 2rem;
+
 }
 .header__image {
   width: 260px;
@@ -48,8 +50,8 @@ button{
   header {
     /* height: 100vh; */
     display: grid;
-    grid-template-columns: repeat(2 , 47vw);
-    grid-template-rows: 80vh;
+    grid-template-columns: repeat(2 , 50vw);
+    grid-template-rows: 100vh;
     grid-template-areas: "text picture";
     align-items: center;
   }
@@ -64,6 +66,7 @@ button{
     grid-area: text;
     margin-top: 0;
     line-height: 4rem;
+    justify-self: center;
   }
 
   .p1 {
@@ -79,8 +82,8 @@ button{
 
   button{
     margin-top: 2rem;
-    padding: .8rem 3.5rem;
-    font-size: 1.4rem;
+    padding: .7rem 2.8rem;
+    font-size: 1.1rem;
     background: #12006C;
     border: none;
     font-family: Poppins;
@@ -88,7 +91,7 @@ button{
     border-radius: 5px;
   }
   button{
-    padding: .7rem 2.8rem;
+    
     font-size: 1.1rem;
   }
 }

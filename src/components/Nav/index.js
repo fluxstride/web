@@ -15,8 +15,6 @@ const Nav = () => {
         <div onClick={showMenu} className="hamburger__container">
           <img src={hamburger} alt="menu" className="hamburger" />
         </div>
-
-        {/* <div className="nav__links"> menu</div> */}
       </div>
       <div className={`nav__links ${show ? "nav__show" : null}`}>
         <ul>

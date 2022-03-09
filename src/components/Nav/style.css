@@ -3,6 +3,10 @@
   justify-content: space-between;
   align-items: center;
   overflow-y: hidden;
+  width: 90vw;
+  margin: 0 auto;
+  padding: 2rem 0 0;
+
 }
 .logo{
   width: 70px;
@@ -10,7 +14,7 @@
 .hamburger__container {
   width: 60px;
   margin-top: 2px;
-  z-index: 39;
+  z-index: 39 !important;
 }
 .hamburger {
   width: 33px;
