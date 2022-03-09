@@ -6,7 +6,7 @@ header {
   grid-template-areas:
     "picture"
     "text";
-    padding:0 2rem;
+    /* padding:0 2rem; */
 
 }
 .header__image {
@@ -44,13 +44,14 @@ button{
   font-family: Poppins;
   color: #fff;
   border-radius: 5px;
+  margin-bottom: 3rem;
 }
 
 @media screen and (min-width: 760px) {
   header {
     /* height: 100vh; */
     display: grid;
-    grid-template-columns: repeat(2 , 50vw);
+    grid-template-columns: repeat(2 , calc(50vw - 1rem));
     grid-template-rows: 100vh;
     grid-template-areas: "text picture";
     align-items: center;
@@ -58,7 +59,7 @@ button{
   .header__image {
     grid-area: picture;
     margin-top: 0;
-    justify-self: center;
+    /* justify-self: center; */
     width: 300px;
   }
 
@@ -82,6 +83,8 @@ button{
 
   button{
     margin-top: 2rem;
+  margin-bottom: 0rem;
+
     padding: .7rem 2.8rem;
     font-size: 1.1rem;
     background: #12006C;
