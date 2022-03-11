@@ -7,13 +7,13 @@ const Me = () => {
       </h1>
       <div className="right">
         <p className="me__text">
-          My name is adekoya samuel and i am
+          My name is Adekoya Samuel and i am
           a software developer with proficient
-          knowledige in Web Development.
+          knowledge in Web Development.
         </p>
         <div className="right__bottom">
-          <p>{"know more ->"}</p>
-        <div className="sph"></div>
+          <p>{"Know more  ->"}</p>
+          <div className="sph"></div>
         </div>
       </div>
     </div>

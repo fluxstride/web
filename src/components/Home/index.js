@@ -1,6 +1,8 @@
 import Header from '../Header';
 import Nav from './../Nav/index'
 import Me from './../Me/index';
+import TechStack from './../TechStack/index'
+import Works from './../Works/index'
 
 const Home = () => {
   return (
@@ -8,6 +10,8 @@ const Home = () => {
       <Nav />
       <Header />
       <Me />
+      <TechStack/>
+      <Works/>
     </div>
   )
 }
